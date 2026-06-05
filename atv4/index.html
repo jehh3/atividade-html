@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Minha Agenda Semanal</title>
+
+<style>
+    body{
+        font-family: Arial, sans-serif;
+        background-color: #222831;
+        text-align: center;
+        color: #eeeeee;
+        margin: 20px;
+    }
+
+    table{
+        width: 90%;
+        margin: auto;
+        border-collapse: collapse;
+        box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+    }
+
+    caption{
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 15px;
+        color: #ffffff;
+    }
+
+    th{
+        background-color: #30475E;
+        color: white;
+        padding: 14px;
+        border: 2px solid #1f2d3a;
+    }
+
+    td{
+        padding: 12px;
+        border: 2px solid #526d82;
+    }
+
+    .periodo{
+        background-color: #3A506B;
+        color: white;
+        font-weight: bold;
+    }
+
+    .trabalho{
+        background-color: #DDE6ED;
+        color: #222;
+    }
+
+    .estudo{
+        background-color: #B8C1EC;
+        color: #222;
+    }
+
+    .livre{
+        background-color: #A5D6A7;
+        color: #222;
+    }
+
+    .sono{
+        background-color: #7C83FD;
+        color: white;
+        font-weight: bold;
+    }
+
+    tr:hover td{
+        opacity: 0.95;
+    }
+</style>
+
+</head>
+<body>
+
+<table>
+
+    <caption>Minha Agenda Semanal</caption>
+
+    <tr>
+        <th>Horário</th>
+        <th>Domingo</th>
+        <th>Segunda</th>
+        <th>Terça</th>
+        <th>Quarta</th>
+        <th>Quinta</th>
+        <th>Sexta</th>
+        <th>Sábado</th>
+    </tr>
+
+    <tr>
+        <td class="periodo">Manhã</td>
+        <td class="livre">Descanso</td>
+        <td class="trabalho">Trabalho</td>
+        <td class="trabalho">Trabalho</td>
+        <td class="trabalho">Trabalho</td>
+        <td class="trabalho">Trabalho</td>
+        <td class="trabalho">Trabalho</td>
+        <td class="trabalho">Trabalho</td>
+    </tr>
+
+    <tr>
+        <td class="periodo">Tarde</td>
+        <td class="livre">Família</td>
+        <td class="trabalho">Trabalho</td>
+        <td class="trabalho">Trabalho</td>
+        <td class="trabalho">Trabalho</td>
+        <td class="trabalho">Trabalho</td>
+        <td class="trabalho">Trabalho</td>
+        <td class="trabalho">Trabalho</td>
+    </tr>
+
+    <tr>
+        <td class="periodo">Noite</td>
+        <td class="livre">Filme / Série</td>
+        <td class="estudo">Estudos</td>
+        <td class="estudo">Estudos</td>
+        <td class="estudo">Estudos</td>
+        <td class="estudo">Estudos</td>
+        <td class="estudo">Estudos</td>
+        <td class="estudo">Estudos</td>
+    </tr>
+
+    <tr>
+        <td class="periodo" rowspan="2">Madrugada</td>
+        <td colspan="7" class="sono">Dormindo 😴</td>
+    </tr>
+
+    <tr>
+        <td colspan="7" class="livre">Preparação para o próximo dia</td>
+    </tr>
+
+</table>
+
+</body>
+</html>
